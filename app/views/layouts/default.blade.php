@@ -38,9 +38,6 @@ scale=1.0">
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <!-- custom js -->
     <script src="/js/main.js"></script>
-    <script>
-        $(".thumbnail").height(Math.max.apply(null, $(".thumbnail").map(function() { return 350; })));
-    </script>
 </body>
 
 </html>
