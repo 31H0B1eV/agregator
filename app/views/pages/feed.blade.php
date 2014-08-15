@@ -24,7 +24,7 @@ Page | feed
                         {{ feed.title }}
                     </a>
                 </h3><hr/>
-                <p> {{ feed.contentSnippet }} </p><hr/>
+                <p> {{ feed.content }} </p><hr/>
                 <p style="text-align: right"><small>&copy; источник: {{ feed.link.match(r)[1] }}.</small></p>
             </div>
         </div>
