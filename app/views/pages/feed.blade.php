@@ -18,7 +18,7 @@ Page | feed
 
     <div class="col-sm-3 col-md-3 col-lg-3 hidden-xs" ng-hide="loading">
 
-        <script type="text/javascript" src="http://100widgets.com/js_data.php?id=40"></script>
+        <script type="text/javascript" src="http://100widgets.com/js_data.php?id=88"></script>
         &nbsp
         <!-- Gismeteo informer START -->
         <link rel="stylesheet" type="text/css" href="http://www.gismeteo.ru/static/css/informer2/gs_informerClient.min.css">
