@@ -19,10 +19,7 @@ scale=1.0">
 
 @include('layouts.partials.nav')
 
-        <div class="container">
-            @yield('content')
-        </div>
-
+        @yield('content')
 
     <!-- Angular -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.20/angular.min.js"></script>
