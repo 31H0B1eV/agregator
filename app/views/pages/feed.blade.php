@@ -20,7 +20,7 @@ Page | feed
 
         <!-- Gismeteo informer START -->
         <link rel="stylesheet" type="text/css" href="http://www.gismeteo.ru/static/css/informer2/gs_informerClient.min.css">
-        <div id="gsInformerID-P2K37C0Nb81K4L" class="gsInformer" style="width:240px;height:182px">
+        <div id="gsInformerID-lHd122G305d053" class="gsInformer" style="width:240px;height:182px">
           <div class="gsIContent">
            <div id="cityLink">
              <a href="http://www.gismeteo.ru/city/daily/11855/" target="_blank">Погода в Макеевке</a>
@@ -44,9 +44,9 @@ Page | feed
             </div>
           </div>
         </div>
-        <script src="http://www.gismeteo.ru/ajax/getInformer/?hash=P2K37C0Nb81K4L" type="text/javascript"></script>
+        <script src="http://www.gismeteo.ru/ajax/getInformer/?hash=lHd122G305d053" type="text/javascript"></script>
         <!-- Gismeteo informer END -->
-
+        
         <div><script charset="UTF-8" src="http://widget24.com/code/calendar?data%5BWidget%5D%5Bcss%5D=white" type="text/javascript"></script></div>
     </div>
 
