@@ -15,7 +15,10 @@ Route::get('/js-is-required', function() {
     return View::make('errors.js-is-required');
 });
 
-Route::get('/api/v1/show', 'FeedController@index');
+Route::group(['prefix' => 'api/v1'], function()
+{
+    Route::get('/show', 'FeedController@index');
+});
 
 Route::get('/', [
     'as' => 'home',

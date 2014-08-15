@@ -123,7 +123,6 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
 		'Way\Generators\GeneratorsServiceProvider',
-//    	'Awjudd\FeedReader\FeedReaderServiceProvider',
         'Laracasts\Validation\ValidationServiceProvider',
 
 //        'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
