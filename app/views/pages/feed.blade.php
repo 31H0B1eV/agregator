@@ -47,8 +47,8 @@ Page | feed
 
         <div class="thumbnail" ng-repeat="image in images.responseData.feed.entries">
             <div class="caption">
-                <img class="tmbimg" src="{{ image.content.match(murl)[1] }}" alt=""/>
-                <p>{{ image.contentSnippet }}</p><hr/>
+                <img class="tmbimg" src="{{ image.content.match(murl)[1] }}" alt=""/><hr/>
+                <p>{{ image.contentSnippet }}</p>
                 <p style="text-align: right"><small>&copy; источник: flickr.com</small></p>
             </div>
         </div>
