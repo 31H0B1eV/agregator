@@ -16,7 +16,7 @@ Page | feed
         <img class="img-loading" src="/img/ajax-loader.gif" id="img" alt=""/>
     </div>
 
-    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9" ng-hide="loading">
         <div class="thumbnail" ng-repeat="feed in feeds | filter:search">
             <div class="caption">
                 <h3 id="tmb-title">
@@ -30,7 +30,7 @@ Page | feed
         </div>
     </div>
 
-    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" ng-hide="loading">
         <select class="form-control" ng-model="search" >
           <optgroup label="Выбор источника:">
               <option>lenta.ru</option>
