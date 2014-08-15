@@ -16,8 +16,8 @@ Page | feed
         <img class="img-loading" src="/img/ajax-loader.gif" id="img" alt=""/>
     </div>
 
-    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9" ng-hide="loading">
-        <div class="thumbnail" ng-repeat="feed in feeds | filter:search">
+    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9" ng-hide="loading">
+        <div class="thumbnail" ng-repeat="feed in feeds.responseData.feed.entries | filter:search">
             <div class="caption">
                 <h3 id="tmb-title">
                     <a href=" {{ feed.link }} " target="_blank">
@@ -25,12 +25,12 @@ Page | feed
                     </a>
                 </h3><hr/>
                 <p> {{ feed.content }} </p><hr/>
-                <p style="text-align: right"><small>&copy; источник: {{ feed.link.match(r)[1] }}.</small></p>
+                <p style="text-align: right"><small>&copy; источник: {{ feed.link.match(dom)[1] }}.</small></p>
             </div>
         </div>
     </div>
 
-    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" ng-hide="loading">
+    <div class="col-sm-3 col-md-3 col-lg-3 hidden-xs" ng-hide="loading">
         <select class="form-control" ng-model="search" >
           <optgroup label="Выбор источника:">
               <option>lenta.ru</option>
@@ -44,8 +44,13 @@ Page | feed
           </optgroup>
         </select>
 
-        <div class="thumbnail" style="height: 800px;">
-            <p>Здесь что -то будет</p>
+
+        <div class="thumbnail" ng-repeat="image in images.responseData.feed.entries">
+            <div class="caption">
+                <img class="tmbimg" src="{{ image.content.match(murl)[1] }}" alt=""/>
+                <p>{{ image.contentSnippet }}</p><hr/>
+                <p style="text-align: right"><small>&copy; источник: flickr.com</small></p>
+            </div>
         </div>
     </div>
 </div>

@@ -18,6 +18,7 @@ Route::get('/js-is-required', function() {
 Route::group(['prefix' => 'api/v1'], function()
 {
     Route::get('/show', 'FeedController@index');
+    Route::get('/images', 'FeedController@getImageFeed');
 });
 
 Route::get('/', [

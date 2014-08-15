@@ -48,16 +48,16 @@ Log::useFiles(storage_path().'/logs/laravel.log');
 
 App::error(function($exception, $code)
 {
-    switch ($code)
-    {
-        case 404:
-            return Response::view('errors.404', array(), 404);
+//    switch ($code)
+//    {
+//        case 404:
+//            return Response::view('errors.404', array(), 404);
+//
+//        default:
+//            return Response::view('errors.default', array(), $code);
+//    }
 
-        default:
-            return Response::view('errors.default', array(), $code);
-    }
-
-//    Log::error($exception);
+    Log::error($exception);
 });
 
 /*

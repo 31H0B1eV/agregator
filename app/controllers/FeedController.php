@@ -9,6 +9,7 @@ class FeedController extends \BaseController {
     const RUSVESNA = 'http://rusvesna.su/rss.xml';
     const CENSOR = 'http://censor.net.ua/includes/resonance_full_ru.xml';
     const LENTARU = 'http://lenta.ru/rss';
+    const FLICKR = 'http://www.flourish.org/news/flickr-daily-interesting-one.xml';
 
 	/**
 	 * Display a listing of the resource.
@@ -28,6 +29,15 @@ class FeedController extends \BaseController {
                                                 $json_censor_data,
                                                 $json_lenta_data);
 	}
+
+    public function getImageFeed()
+    {
+        $data = new XmlToJson;
+
+        $feed = $data->parseXML(self::FLICKR);
+
+        return json_decode(json_encode($feed, JSON_UNESCAPED_UNICODE), true);
+    }
 
     public function show()
     {
