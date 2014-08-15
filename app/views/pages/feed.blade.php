@@ -18,6 +18,8 @@ Page | feed
 
     <div class="col-sm-3 col-md-3 col-lg-3 hidden-xs" ng-hide="loading">
 
+        <script type="text/javascript" src="http://100widgets.com/js_data.php?id=40"></script>
+        &nbsp
         <!-- Gismeteo informer START -->
         <link rel="stylesheet" type="text/css" href="http://www.gismeteo.ru/static/css/informer2/gs_informerClient.min.css">
         <div id="gsInformerID-lHd122G305d053" class="gsInformer" style="width:240px;height:182px">
@@ -46,8 +48,10 @@ Page | feed
         </div>
         <script src="http://www.gismeteo.ru/ajax/getInformer/?hash=lHd122G305d053" type="text/javascript"></script>
         <!-- Gismeteo informer END -->
-        
-        <div><script charset="UTF-8" src="http://widget24.com/code/calendar?data%5BWidget%5D%5Bcss%5D=white" type="text/javascript"></script></div>
+        &nbsp
+        <script type="text/javascript" src="http://100widgets.com/js_data.php?id=158"></script>
+        &nbsp
+        <script type="text/javascript" src="http://100widgets.com/js_data.php?id=69"></script>
     </div>
 
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" ng-hide="loading">
