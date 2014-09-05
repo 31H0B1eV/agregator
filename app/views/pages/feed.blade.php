@@ -16,45 +16,9 @@ Page | feed
         <img class="img-loading" src="/img/ajax-loader.gif" id="img" alt=""/>
     </div>
 
-    <div class="col-sm-3 col-md-3 col-lg-3 hidden-xs" ng-hide="loading">
 
-        <script type="text/javascript" src="http://100widgets.com/js_data.php?id=88"></script>
-        &nbsp
-        <!-- Gismeteo informer START -->
-        <link rel="stylesheet" type="text/css" href="http://www.gismeteo.ru/static/css/informer2/gs_informerClient.min.css">
-        <div id="gsInformerID-lHd122G305d053" class="gsInformer" style="width:240px;height:182px">
-          <div class="gsIContent">
-           <div id="cityLink">
-             <a href="http://www.gismeteo.ru/city/daily/11855/" target="_blank">Погода в Макеевке</a>
-           </div>
-           <div class="gsLinks">
-             <table>
-               <tr>
-                 <td>
-                   <div class="leftCol">
-                     <a href="http://www.gismeteo.ru" target="_blank">
-                       <img alt="Gismeteo" title="Gismeteo" src="http://www.gismeteo.ru/static/images/informer2/logo-mini2.png" align="absmiddle" border="0" />
-                       <span>Gismeteo</span>
-                     </a>
-                   </div>
-                   <div class="rightCol">
-                     <a href="http://www.gismeteo.ru/city/weekly/11855/" target="_blank">Прогноз на 2 недели</a>
-                   </div>
-                   </td>
-                </tr>
-              </table>
-            </div>
-          </div>
-        </div>
-        <script src="http://www.gismeteo.ru/ajax/getInformer/?hash=lHd122G305d053" type="text/javascript"></script>
-        <!-- Gismeteo informer END -->
-        &nbsp
-        <script type="text/javascript" src="http://100widgets.com/js_data.php?id=158"></script>
-        &nbsp
-        <script type="text/javascript" src="http://100widgets.com/js_data.php?id=69"></script>
-    </div>
 
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" ng-hide="loading">
+    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9" ng-hide="loading">
         <div class="thumbnail" ng-repeat="feed in feeds.responseData.feed.entries | filter:search">
             <div class="caption">
                 <h3 id="tmb-title">
