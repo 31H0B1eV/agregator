@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">Все новости здесь:</a>
+      <a class="navbar-brand" href="/">Все новости в одном месте.</a>
     </div>
   </div>
 </nav>
