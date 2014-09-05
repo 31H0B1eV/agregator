@@ -65,6 +65,17 @@ Page | feed
                     <p style="text-align: right"><small>&copy; источник: flickr.com</small></p>
                 </div>
             </div>
+
+            &nbsp
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- test -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:300px;height:600px"
+                 data-ad-client="ca-pub-8991474059210216"
+                 data-ad-slot="9206148683"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
         </div>
     </div>
 </div>
